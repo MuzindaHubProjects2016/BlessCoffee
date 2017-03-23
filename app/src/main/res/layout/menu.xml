@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="0dp"
+    android:layout_centerHorizontal="true"
+    android:background="#a52a2a">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:id="@+id/menuImage"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/blesscofee"
+        android:layout_above="@+id/menuWelcome"/>
+
+    <TextView
+
+        android:id="@+id/menuWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff00"
+        android:inputType="textMultiLine"
+        android:text="Put your testbuds to work. Scroll horizontally to see more and click on the image to know more "
+        android:layout_below="@+id/menuImage"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:background="#a52a2a">
+    </TextView>
+<HorizontalScrollView
+
+    android:layout_width="wrap_content"
+    android:layout_height="320dp"
+    android:orientation="horizontal"
+    android:background="#a52a2a"
+    android:layout_marginBottom="20dp"
+    android:scrollbarFadeDuration="0"
+    android:fadeScrollbars="false">
+<LinearLayout
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="2dp"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/coffeeDrink"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/coffeedrink"
+        />
+
+    <ImageView
+        android:id="@+id/CoffeeCapsules"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:src="@drawable/coffeecapsules"
+        android:layout_weight="0.54" />
+
+    <ImageView
+        android:id="@+id/Burger"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:src="@drawable/burger" />
+
+    <ImageView
+        android:id="@+id/beansTopping"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:src="@drawable/beanstopping" />
+
+    <ImageView
+        android:id="@+id/IcedTea"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:src="@drawable/icedtea" />
+
+    <ImageView
+        android:id="@+id/Pastry"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:src="@drawable/pastry" />
+
+    <ImageView
+        android:id="@+id/MilkGlass"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:src="@drawable/milkglass" />
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#a52a2a"
+        android:text="Back"
+        android:textColor="#ffff00"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="2dp"/>
+</LinearLayout>

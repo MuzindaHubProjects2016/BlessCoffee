@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:gravity="center_vertical"
+    android:background="#a52a2a">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/blesscofee" />
+
+
+    <EditText
+
+        android:id="@+id/editTextUserName"
+
+        android:hint="User Name"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:textColor="#ffff00">
+
+        <requestFocus />
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/editFullName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fullname"
+        android:textColor="#ffff00" />
+
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:textColor="#ffff00" />
+
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColor="#ffff00" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="email"
+        android:textColor="#ffff00" />
+
+
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#ffff00" />
+
+
+
+
+    <Button
+
+        android:id="@+id/buttonCreateRecord"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:textColor="#ffff00"
+        />
+
+
+
+</LinearLayout>

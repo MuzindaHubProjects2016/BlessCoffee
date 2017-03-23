@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A52A2A"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Welcome"
+        android:textColor="#FFD700"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/blesscofee"
+        android:id="@+id/iconLogged"
+        />
+
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/Menu"
+        android:textColor="#FFFF00" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Place an Order"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/Order"
+        android:layout_marginTop="46dp"
+        android:textColor="#FFFF00" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Contact BlessCoffee"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/Contact"
+        android:layout_marginTop="46dp"
+        android:textColor="#FFFF00" />
+
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@null"
+        android:text="Logout"
+        android:textColor="#ffff00" />
+
+
+</LinearLayout>

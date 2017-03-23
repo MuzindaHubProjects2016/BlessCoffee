@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a52a2a">
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="5dp"
+        android:layout_toRightOf="@+id/checkBox1"
+        android:layout_toEndOf="@+id/checkBox1"
+        android:scaleType="fitXY"
+
+        />
+
+
+    <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#a52a2a"
+            android:textColorHighlight="#ffff00"
+            android:textColorHint="#ffff00"
+            android:textColorLink="#ffff00"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+           />
+
+
+    <EditText
+        android:id="@+id/firstLine"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:hint="Qnty"
+        android:textColor="#ffff00"
+        android:padding="5dp"
+        android:ems="5"
+        android:inputType="number"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignBottom="@+id/checkBox1"
+        android:layout_toRightOf="@+id/item"
+        android:layout_toEndOf="@+id/item"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:ellipsize="end"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="5dp"
+        android:maxLines="1"
+        android:textColor="#ffff00"
+        android:layout_alignBottom="@+id/checkBox1"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_toEndOf="@+id/icon"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

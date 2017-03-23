@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "625638452653",
+    "firebase_url": "https://blesscoffeefirebaseproject.firebaseio.com",
+    "project_id": "blesscoffeefirebaseproject",
+    "storage_bucket": "blesscoffeefirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625638452653:android:ba15e78db354d0f7",
+        "android_client_info": {
+          "package_name": "com.example.chiwaura.blesscoffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625638452653-mgsi8h5dg3dcprjc24uk706mam9q0lj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZE818MsZ_6Ehf17oibuwyN1KRb_IaPsY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
